@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'sinatra/reloader'
+require 'sinatra/reloader' if development?
 
 ASCII_UPPER = (65..90).to_a 
 ASCII_LOWER = (97..122).to_a
